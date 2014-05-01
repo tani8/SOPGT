@@ -1,0 +1,36 @@
+body{font-family:"Lato_Regular",,monospace;}
+header{
+    background-color:#334C80;
+    color: #E6E6FA;
+    font-weight: bold;
+    text-align: center;
+}
+
+#box2{font-weight: bold;
+    color: #333333;
+    text-align: center;
+}
+
+.column1of2 {
+    float: left;
+    width: 50px;
+    margin: 10px;}
+.column2of2 {
+    font-weight: bold;
+    float: left;
+    width: 150px;
+    margin: 10px;}
+.box21, .box22, .box23, .box24 {
+    position: relative;
+    display: inline-table;
+    text-align: center;
+    padding-left: 30px;
+    height: 50px;
+    width: 150px;
+}
+
+#footer{
+    display : table-row;
+    vertical-align : bottom;
+    height : 10px;
+}
