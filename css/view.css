@@ -1,9 +1,16 @@
 body{font-family:"Lato_Regular",,monospace;}
+h1{font-size:60px;}
+h2{font-size: 20px}
+h3{font-size: 35px}
+h6{font-size: 20px}
+h7{font-size: 50px}
+
 header{
     background-color:#334C80;
     color: #E6E6FA;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px,
 }
 
 #box2{font-weight: bold;
@@ -11,26 +18,51 @@ header{
     text-align: center;
 }
 
-.column1of2 {
+section {
+    margin-top: 500px;
+    background-color: lightgray;
+}
+
+.column1 {
     float: left;
+    position: relative;
+    bottom: 70px; /*moves text up*/
+    left: 20px;
     width: 50px;
     margin: 10px;}
-.column2of2 {
+.horiz {
     font-weight: bold;
     float: left;
     width: 150px;
-    margin: 10px;}
-.box21, .box22, .box23, .box24 {
-    position: relative;
-    display: inline-table;
+    margin: 10px;
+}
+.box21, .box22, .box23, .box24, .box31, .box32, .box33 {
     text-align: center;
     padding-left: 30px;
-    height: 50px;
     width: 150px;
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
 }
 
+.section3{
+    font-weight: bold;
+    float: left;
+    width: 150px;
+    margin: 10px;
+}
+
+.box34, .box35, .box36{
+
+}
+
+/*
 #footer{
     display : table-row;
     vertical-align : bottom;
     height : 10px;
 }
+*/
+
+
