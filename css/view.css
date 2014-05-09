@@ -1,9 +1,15 @@
-body{font-family:"Lato_Regular",,monospace;}
+body{font-family:"Lato_Regular",,monospace; min-height: 100%;}
 h1{font-size:60px;}
 h2{font-size: 20px}
-h3{font-size: 35px}
+h3{font-size: 45px; text-align: center;}
+h4{font-size: 17px}
 h6{font-size: 20px}
-h7{font-size: 50px}
+
+
+#container {
+    min-height:100%;
+    position:relative;
+}
 
 header{
     background-color:#334C80;
@@ -18,32 +24,67 @@ header{
     text-align: center;
 }
 
-section {
+.four {
+    margin-top: 1100px;
+    background-color: white;
+    height: 50px;
+    padding-top: 40px;
+
+
+}
+.box4{
+    position: relative;
+    padding-left: 250px;
+}
+p.data{
+   height: 5px;
+   width: 400px;
+}
+.three {
+    position: absolute;
     margin-top: 500px;
-    background-color: lightgray;
+    background-color: #D9D9DE;
+    height: 600px;
+    padding-top: 20px;
+}
+.five{
+    margin-top: 500px;
+    background-color: #D9D9DE;
+    padding-top: 10px;
+    height: 150px;
+
+}
+
+.six{
+    text-align: center;
+    background-color: white;
+    height: 150px;
+    padding-top: 30px;
+
 }
 
 .column1 {
     float: left;
     position: relative;
-    bottom: 70px; /*moves text up*/
+    bottom: 130px; /*moves text up*/
     left: 20px;
     width: 50px;
     margin: 10px;}
 .horiz {
-    font-weight: bold;
-    float: left;
-    width: 150px;
-    margin: 10px;
+    width:176px;
+    font-size:80%;
+    text-align:center;
+    float:left;
+    position:relative;
+
 }
-.box21, .box22, .box23, .box24, .box31, .box32, .box33 {
+.box21, .box22, .box23, .box24 {
     text-align: center;
     padding-left: 30px;
-    width: 150px;
     float: left;
     margin-right: 10px;
     display: inline-block;
-    vertical-align: top;
+
 }
 
 .section3{
@@ -53,16 +94,27 @@ section {
     margin: 10px;
 }
 
-.box34, .box35, .box36{
+.box31, .box32, .box33, .box34, .box35, .box36{
+    width: 300px;
+    float: left;
+    padding-left: 200px;
 
 }
+p.six1{
 
-/*
+
+}
+.last{
+    color: deepskyblue;
+}
+
 #footer{
-    display : table-row;
-    vertical-align : bottom;
-    height : 10px;
+    width: 100%;
+    position:absolute;
+    bottom:-850px;
+    left:1100px;
+    color: darkgray;
 }
-*/
+
 
 
