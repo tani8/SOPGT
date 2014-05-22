@@ -24,11 +24,15 @@ header{
     text-align: center;
 }
 
+.two{
+    margin-bottom: -220px;
+}
 .four {
     margin-top: 1100px;
     background-color: white;
     height: 50px;
     padding-top: 40px;
+    margin-bottom: -150px;
 
 
 }
@@ -52,15 +56,12 @@ p.data{
     background-color: #D9D9DE;
     padding-top: 10px;
     height: 150px;
-
 }
 
 .six{
     text-align: center;
     background-color: white;
-    height: 150px;
-    padding-top: 30px;
-
+    margin-bottom: -1000px;
 }
 
 .column1 {
@@ -71,27 +72,11 @@ p.data{
     width: 50px;
     margin: 10px;}
 .horiz {
-    width:176px;
+    /*width:176px;*/
     font-size:80%;
     text-align:center;
     float:left;
     position:relative;
-
-}
-.box21, .box22, .box23, .box24 {
-    text-align: center;
-    padding-left: 30px;
-    float: left;
-    margin-right: 10px;
-    display: inline-block;
-
-}
-
-.section3{
-    font-weight: bold;
-    float: left;
-    width: 150px;
-    margin: 10px;
 }
 
 .box31, .box32, .box33, .box34, .box35, .box36{
@@ -100,19 +85,15 @@ p.data{
     padding-left: 200px;
 
 }
-p.six1{
 
-
-}
 .last{
     color: deepskyblue;
 }
 
 #footer{
-    width: 100%;
     position:absolute;
-    bottom:-850px;
-    left:1100px;
+    bottom:-150px;
+    left: 450px;
     color: darkgray;
 }
 
