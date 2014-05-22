@@ -23,7 +23,9 @@ header{
     color: #333333;
     text-align: center;
 }
-
+.horiz{
+    position: relative;
+}
 .two{
     margin-bottom: -220px;
 }
@@ -33,8 +35,6 @@ header{
     height: 50px;
     padding-top: 40px;
     margin-bottom: -150px;
-
-
 }
 .box4{
     position: relative;
@@ -61,7 +61,7 @@ p.data{
 .six{
     text-align: center;
     background-color: white;
-    margin-bottom: -1000px;
+
 }
 
 .column1 {
@@ -83,7 +83,6 @@ p.data{
     width: 300px;
     float: left;
     padding-left: 200px;
-
 }
 
 .last{
